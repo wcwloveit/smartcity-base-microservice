@@ -1,0 +1,7 @@
+E:\microservice-gov\smartcity\base-microservice\base-auth\src\main\java\cn\gov\wuxi\base\auth\AuthServerApplication.java
+E:\microservice-gov\smartcity\base-microservice\base-auth\src\main\java\cn\gov\wuxi\base\auth\repository\UserRepository.java
+E:\microservice-gov\smartcity\base-microservice\base-auth\src\main\java\cn\gov\wuxi\base\auth\controller\RemoteTokenController.java
+E:\microservice-gov\smartcity\base-microservice\base-auth\src\main\java\cn\gov\wuxi\base\auth\service\UserServiceDetail.java
+E:\microservice-gov\smartcity\base-microservice\base-auth\src\main\java\cn\gov\wuxi\base\auth\config\AuthSecurityConfig.java
+E:\microservice-gov\smartcity\base-microservice\base-auth\src\main\java\cn\gov\wuxi\base\auth\pojo\Role.java
+E:\microservice-gov\smartcity\base-microservice\base-auth\src\main\java\cn\gov\wuxi\base\auth\pojo\User.java

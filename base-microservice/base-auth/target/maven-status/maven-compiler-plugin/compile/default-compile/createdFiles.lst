@@ -1,0 +1,8 @@
+cn\gov\wuxi\base\auth\config\AuthSecurityConfig.class
+cn\gov\wuxi\base\auth\repository\UserRepository.class
+cn\gov\wuxi\base\auth\AuthServerApplication$OAuth2AuthorizationConfig.class
+cn\gov\wuxi\base\auth\controller\RemoteTokenController.class
+cn\gov\wuxi\base\auth\service\UserServiceDetail.class
+cn\gov\wuxi\base\auth\pojo\Role.class
+cn\gov\wuxi\base\auth\pojo\User.class
+cn\gov\wuxi\base\auth\AuthServerApplication.class
