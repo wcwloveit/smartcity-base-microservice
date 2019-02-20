@@ -3,7 +3,6 @@ package cn.gov.wuxi.base.auth.pojo;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.List;
@@ -12,19 +11,12 @@ import java.util.List;
  * Author:流氓兔
  * Date:2019/2/19
  **/
-@Entity
+
 @Data
 public class User implements UserDetails, Serializable {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column
     private String username;
-    @Column
     private String password;
-    @ManyToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
-    @JoinTable(name = "user_role",joinColumns = @JoinColumn(name = "user_id",referencedColumnName = "id"),inverseJoinColumns = @JoinColumn(name = "role_id",referencedColumnName = "id"))
     private List<Role> authorities;
 
     @Override

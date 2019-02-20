@@ -7,5 +7,15 @@ eureka:
 spring:
     application:
         name: service-provider
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:9998/users/current
+    client:
+      clientId: service-hi
+      clientSecret: 123456
+      access-token-uri: http://localhost:9998/oauth/token
+      grant-type: client_credentials,password
+      scope: server
 
 

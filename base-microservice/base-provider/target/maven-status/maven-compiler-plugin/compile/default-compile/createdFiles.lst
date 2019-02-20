@@ -1,0 +1,4 @@
+cn\gov\wuxi\base\provider\ProviderApplication.class
+cn\gov\wuxi\base\provider\service\impl\ProviderServiceImpl.class
+cn\gov\wuxi\base\provider\config\ResourceServerConfigurer.class
+cn\gov\wuxi\base\provider\service\ProviderService.class

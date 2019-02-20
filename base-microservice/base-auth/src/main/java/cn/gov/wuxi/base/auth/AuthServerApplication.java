@@ -1,11 +1,13 @@
 package cn.gov.wuxi.base.auth;
 
 import cn.gov.wuxi.base.auth.service.UserServiceDetail;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
@@ -24,11 +26,15 @@ import javax.sql.DataSource;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableResourceServer
+@MapperScan({"cn.gov.wuxi.base.auth.reposity"})//开启mapper文件扫描
 public class AuthServerApplication {
 
 	@Autowired
 	@Qualifier("dataSource")
 	private DataSource dataSource;
+
+	@Autowired
+	private ApplicationContext applicationContext;
 
 	public static void main(String[] args) throws Exception {
 		new SpringApplicationBuilder(AuthServerApplication.class).web(true).run(args);

@@ -1,16 +1,17 @@
 package cn.gov.wuxi.base.auth.repository;
-
 import cn.gov.wuxi.base.auth.pojo.User;
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
-
+import cn.gov.wuxi.base.auth.provider.UserSqlProvider;
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.SelectProvider;
 
 /**
  * Author:流氓兔
  * Date:2019/2/19
  **/
-@Repository
-public interface UserRepository extends JpaRepository<User,Long> {
+@Mapper
+public interface UserRepository {
 
+    @SelectProvider(type=UserSqlProvider.class,method="findByUsername")
     User findByUsername(String username);
+
 }
