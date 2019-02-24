@@ -1,6 +1,6 @@
-E:\microservice-gov\smartcity\base-microservice\base-provider\src\main\java\cn\gov\wuxi\base\provider\config\OAuth2ClientConfig.java
-E:\microservice-gov\smartcity\base-microservice\base-provider\src\main\java\cn\gov\wuxi\base\provider\controller\ProviderController.java
-E:\microservice-gov\smartcity\base-microservice\base-provider\src\main\java\cn\gov\wuxi\base\provider\ProviderApplication.java
-E:\microservice-gov\smartcity\base-microservice\base-provider\src\main\java\cn\gov\wuxi\base\provider\service\ProviderService.java
-E:\microservice-gov\smartcity\base-microservice\base-provider\src\main\java\cn\gov\wuxi\base\provider\config\ResourceServerConfigurer.java
-E:\microservice-gov\smartcity\base-microservice\base-provider\src\main\java\cn\gov\wuxi\base\provider\service\impl\ProviderServiceImpl.java
+F:\microservice-gov\smartcity\base-microservice\base-provider\src\main\java\cn\gov\wuxi\base\provider\service\ProviderService.java
+F:\microservice-gov\smartcity\base-microservice\base-provider\src\main\java\cn\gov\wuxi\base\provider\ProviderApplication.java
+F:\microservice-gov\smartcity\base-microservice\base-provider\src\main\java\cn\gov\wuxi\base\provider\service\impl\ProviderServiceImpl.java
+F:\microservice-gov\smartcity\base-microservice\base-provider\src\main\java\cn\gov\wuxi\base\provider\config\OAuth2ClientConfig.java
+F:\microservice-gov\smartcity\base-microservice\base-provider\src\main\java\cn\gov\wuxi\base\provider\config\ResourceServerConfigurer.java
+F:\microservice-gov\smartcity\base-microservice\base-provider\src\main\java\cn\gov\wuxi\base\provider\controller\ProviderController.java

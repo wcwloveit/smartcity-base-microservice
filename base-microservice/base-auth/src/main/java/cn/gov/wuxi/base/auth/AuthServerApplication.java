@@ -1,5 +1,4 @@
 package cn.gov.wuxi.base.auth;
-
 import cn.gov.wuxi.base.auth.service.UserServiceDetail;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +20,6 @@ import org.springframework.security.oauth2.provider.token.store.InMemoryTokenSto
 import org.springframework.security.oauth2.provider.token.store.JdbcTokenStore;
 
 import javax.sql.DataSource;
-
 
 @SpringBootApplication
 @EnableEurekaClient

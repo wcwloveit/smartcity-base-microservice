@@ -1,0 +1,3 @@
+cn\gov\wuxi\base\feign\service\FeignClientService.class
+cn\gov\wuxi\base\feign\hystrix\HystrixFeignFallback.class
+cn\gov\wuxi\base\feign\FeignClientApplication.class
